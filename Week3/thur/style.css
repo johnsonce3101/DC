@@ -1,6 +1,30 @@
 body {
-    background-color:  orangered;
+    background-image: url("https://i.pinimg.com/originals/07/7b/b9/077bb9fe56e0f2c211094ff964d5ec0a.jpg");
+ background-color: #cccccc;
+ 
+}
+
+  h2 { font-family: 'Dancing Script', cursive;
+    font-size: 40px;
   }
 
-  h1 { 
-    font-size: 40px;
+  a:link, a:visited {
+    background-color: #ff3300;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: orangered;
+  }
+
+ img {
+    float: left;
+}
+
+ p {
+    color: white;
+}
