@@ -1,11 +1,12 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/07/7b/b9/077bb9fe56e0f2c211094ff964d5ec0a.jpg");
+    background-image: url("https://i.pinimg.com/originals/52/11/33/5211331c3267926037327cb79eab9bd8.jpg");
  background-color: #cccccc;
  
 }
 
   h2 { font-family: 'Dancing Script', cursive;
     font-size: 40px;
+    text-align: center;
   }
 
   a:link, a:visited {
@@ -18,13 +19,25 @@ body {
   }
   
   a:hover, a:active {
-    background-color: orangered;
+    background-color:orange;
   }
 
  img {
-    float: left;
-}
+   
+     border-radius: 100%;
+      
+ }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
  p {
-    color: white;
+    color:black;
+}
+.socialtag {
+    text-align: center;
+    font-size: 30px ;
 }
