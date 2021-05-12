@@ -1,0 +1,50 @@
+.SignIn:link, .SignIn:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 8px;
+  }
+  
+  .SignIn:hover .SignIn:active {
+    background-color:lightblue;
+  }
+
+   .SignIn {
+    position: relative;
+    left: 1000px;
+    font-size: 30px ;
+}
+.Ab {
+    position: relative;
+    right: 120px;
+    font-size: 30px ;
+}
+
+.St {
+    position: relative;
+    right: 110px;
+    font-size: 30px ;
+}
+.google {
+    display: block;
+   width: 200px;
+   height: 200px;
+   margin: auto;
+     
+}
+
+.Search [type=text] {
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    position: relative;
+    left: 500px;
+  }
+
+
+  
+ 
