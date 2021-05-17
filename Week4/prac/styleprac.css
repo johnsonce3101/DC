@@ -1,0 +1,35 @@
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #eee;
+    /* How to center flex items */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+a:link, a:visited {
+    background-color: #474241;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+   border-radius: 8px;
+  }
+  
+  a:hover, a:active {
+    background-color:rgb(14, 13, 13);
+  }
+
+  

@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+
+    grid-template-columns: repeat(3, 50px)
+}
+
+.grid > div {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+  }
+
+.grid > div:nth-child(odd) {
+    background: red;
+  }
+
+.grid > div:nth-child(even) {
+    background:blue;
+  }
