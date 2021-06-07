@@ -1,0 +1,57 @@
+/* img {
+    border-radius: 50%;
+    position: relative;
+    animation-name: left2right;
+    animation-duration: 5s;
+
+}
+@keyframes left2right { 
+ from {
+    left: 0px;
+}
+
+to {
+    left: 200px
+}
+
+} */
+
+@keyframes newLoad {
+    from { bottom: -400px;
+}
+    to { bottom: -370px;
+}
+}
+img {
+    display: inline;
+    bottom: -400px; 
+    border-radius: 50%;
+    position: relative;
+}
+
+.load {
+    animation-name: newLoad;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+.load:nth-child(1) {
+    animation-delay: 200ms;
+}
+
+.load:nth-child(2) {
+    animation-delay: 400ms;
+}
+    
+.load:nth-child(3) {
+    animation-delay: 600ms;
+}
+
+.load:nth-child(4) {
+    animation-delay: 800ms;
+}
+
+.load:nth-child(5) {
+    animation-delay: 1000ms;
+}
